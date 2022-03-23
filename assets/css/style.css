@@ -1,0 +1,49 @@
+*{
+    overflow-x: hidden;
+}
+body{
+    /* background: #d8e3e7; */
+}
+.bg-bar{
+    background: #200B52;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #200B52, #a502c5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-title{
+    padding-top: 10px;
+}
+#tentang{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-about:hover{
+    background:  #FEB419;
+    transition: 1s ease;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+#layanan{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0202020f;
+
+}
+
+.footer{
+    background: linear-gradient(to bottom, #200B52,#A702C8);
+    margin-top: 50px;
+    padding: 50px;
+}
